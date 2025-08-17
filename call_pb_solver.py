@@ -38,7 +38,7 @@ def ensure_directory_exists(directory):
         os.makedirs(directory)
 
 # To store the solving times and cutoff information
-folders = ['no_reduction_PB', 'convexhull_reduction_PB', 'union_rectangle_reduction_PB', 'all_reduction_PB']
+folders = ['no_reduction_PB', 'union_rectangle_reduction_PB']
 
 for folder in folders:
     solving_times = []  # Clear solving times for each folder
